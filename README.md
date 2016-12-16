@@ -13,6 +13,12 @@ $ npm i
 
 Then just go into the src file, and add / edit components.
 
+```
+$ npm start
+```
+
+Go to localhost:3️⃣0️⃣0️⃣0️⃣/ for the app.
+
 This project has css, image, and js loaders, which I would reccommend taking a look at those npm pages for more information.
 
 Make sure you have the latest versions of everything, too. (node, pg, and whatnot).
