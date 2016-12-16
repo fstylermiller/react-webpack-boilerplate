@@ -3,7 +3,7 @@
 module.exports = {
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/domod'
+    connection: 'postgres://localhost/change_me_in_knexfile.js'
   },
 
   production: {
