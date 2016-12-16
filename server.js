@@ -20,19 +20,6 @@ if (process.env.NODE_ENV !== 'production') {
 
 const port = process.env.PORT || 3000;
 
-const passport = require('passport');
-
-app.use(passport.initialize());
-app.use(passport.session());
-
-passport.serializeUser(function(user, done) {
-  done(null, user);
-});
-
-passport.deserializeUser(function(user, done) {
-  done(null, user);
-});
-
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
   publicPath: config.output.publicPath
@@ -41,10 +28,6 @@ app.use(require('webpack-dev-middleware')(compiler, {
 app.use(require('webpack-hot-middleware')(compiler));
 
 app.use('/dist', express.static('dist'));
-
-const auth = require('./routes/auth');
-
-app.use('/auth', auth);
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
