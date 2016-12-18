@@ -29,5 +29,6 @@ Make sure you have the latest versions of everything, too. (node, pg, and whatno
 - Change development connection in knexfile.js
 - Change project name / description in package.json
 - Add a .env file
+
 --
 Make an app!
