@@ -24,7 +24,6 @@ This project has css, image, and js loaders, which I would reccommend taking a l
 Make sure you have the latest versions of everything, too. (node, pg, and whatnot).
 
 ## There are a few things that need to be done to personalize this, which are not crucial.
-----
 
 - Change development connection in knexfile.js
 - Change project name / description in package.json
