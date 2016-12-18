@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router';
 
 import Router from './Router';
 
-class App extends Component {
+export default class App extends Component {
   constructor() {
     super();
   }
@@ -18,5 +18,3 @@ class App extends Component {
     )
   }
 }
-
-export default App;

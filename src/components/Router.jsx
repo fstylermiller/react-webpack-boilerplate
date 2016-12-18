@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Match, Miss } from 'react-router';
 import Main from './Main';
 
-class Router extends Component {
+export default class Router extends Component {
   render() {
     return (
       <div>
@@ -11,5 +11,3 @@ class Router extends Component {
     )
   }
 }
-
-export default Router;

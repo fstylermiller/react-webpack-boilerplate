@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Match, Miss } from 'react-router';
 
-class Main extends Component {
+export default class Main extends Component {
   constructor() {
     super();
   }
@@ -14,5 +14,3 @@ class Main extends Component {
     )
   }
 }
-
-export default Main;
