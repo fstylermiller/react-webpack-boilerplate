@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter } from 'react-router';
+import { BrowserRouter, Match, Miss } from 'react-router';
 
-import Router from './Router';
+import Main from './Main';
 
 export default class App extends Component {
   constructor() {
@@ -12,7 +12,9 @@ export default class App extends Component {
     return (
       <BrowserRouter>
         <div>
-          <Router />
+          <Match pattern='/' exactly render={() =>
+            <Main></Main>
+          } />
         </div>
       </BrowserRouter>
     )

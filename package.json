@@ -9,7 +9,7 @@
     "heroku-postbuild": "npm run build",
     "knex": "knex",
     "lint": "eslint src/components",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "keywords": [
     "react",
@@ -73,6 +73,7 @@
     "json-loader": "^0.5.4",
     "jsonwebtoken": "^7.1.9",
     "knex": "^0.12.6",
+    "nodemon": "^1.11.0",
     "passport": "^0.3.2",
     "passport-github2": "^0.1.10",
     "pg": "^6.1.0",
