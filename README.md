@@ -5,13 +5,25 @@ Usage
 
 ```
 $ git clone https://github.com/voxelsdev/react-webpack-boilerplate.git
+
 $ mv -a react-webpack-boilerplate/. whateveryouwantittobenamed/
+
 $ rm -rf react-webpack-boilerplate/
+
 $ cd whateveryouwantittobenamed/
+
 $ npm i
 ```
 
-Then just go into the src file, and add / edit components.
+##### Make it your own.
+
+```
+$ rm -rf .git
+$ git init
+$ git remote set-url origin https://YourRepoHere
+```
+
+##### Start it up!
 
 ```
 $ npm start
@@ -23,11 +35,18 @@ This project has css, image, and js loaders, which I would reccommend taking a l
 
 Make sure you have the latest versions of everything, too. (node, pg, and whatnot).
 
-## There are a few things that need to be done to personalize this, which are not crucial.
+--
+## Crucial changes (for your app to work)
 
-- Change development connection in knexfile.js
+- Create a PG database
+- Change development conection in knexfile.js
+
+## Extraneous changes (to personalize the app)
+
 - Change project name / description in package.json
+- Change author in package.json
 - Add a .env file
 
 --
-Make an app!
+##### Make something neat!
+- Add jsx and css file under `src/`
