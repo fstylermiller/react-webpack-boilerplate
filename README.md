@@ -1,5 +1,5 @@
 
-This is a boilerplate for projects that have react and webpack.
+This is a boilerplate for a ReactJS, Webpack, PostgreSQL, and Express app. I call it the NERP stack (Node, Express, React, PostgreSQL).
 --
 Usage
 
@@ -49,4 +49,4 @@ Make sure you have the latest versions of everything, too. (node, pg, and whatno
 
 --
 ##### Make something neat!
-- Add jsx and css file under `src/`
+- Add jsx and css files under the `src/` directory. The basic page setup is already implemented.
