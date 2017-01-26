@@ -23,9 +23,10 @@ $ git init
 $ git remote set-url origin https://YourRepoHere
 ```
 
-##### Start it up!
+##### Add a .env file and start it up!
 
 ```
+$ touch .env
 $ npm start
 ```
 
@@ -45,7 +46,6 @@ Make sure you have the latest versions of everything, too. (node, pg, and whatno
 
 - Change project name / description in package.json
 - Change author in package.json
-- Add a .env file
 
 --
 ##### Make something neat!
